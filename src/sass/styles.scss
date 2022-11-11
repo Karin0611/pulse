@@ -1,0 +1,37 @@
+@font-face {
+  font-family: Museo100;
+  src: url("../fonts/MuseoSansCyrl-100.ttf");
+}
+@font-face {
+  font-family: Museo300;
+  src: url("../fonts/MuseoSansCyrl-300.ttf");
+}
+@font-face {
+  font-family: Museo500;
+  src: url("../fonts/MuseoSansCyrl-500.ttf");
+}
+@font-face {
+  font-family: Museo700;
+  src: url("../fonts/MuseoSansCyrl-700.ttf");
+}
+@font-face {
+  font-family: Museo900;
+  src: url("../fonts/MuseoSansCyrl-900.ttf");
+}
+@import 'base/variables';
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/button';
+@import 'blocks/titles';
+@import 'blocks/forms';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/feed';
+@import 'blocks/advantages';
+@import 'blocks/consultation';
+@import 'blocks/promo_media';
+@import 'blocks/advantages_media';

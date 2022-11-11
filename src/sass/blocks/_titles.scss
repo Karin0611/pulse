@@ -1,0 +1,15 @@
+.title {
+  font-family: Museo700, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: #0D0D0D;
+  text-transform: uppercase;
+  margin: 0;
+  &__left {
+    color: white;
+    font-size: 36px;
+    text-align: left;
+    width: 799px;
+    line-height: 54px;
+  }
+}

@@ -1,0 +1,30 @@
+@media (max-width: 1200px) {
+  .advantages {
+    &__subheader {
+      font-size: 27px;
+    }
+    &__info {
+      width: 260px;
+      font-size: 14px;
+    }
+  }
+}
+@media (max-width: 991px) {
+  .advantages {
+    &__wrapper {
+      flex-direction: column;
+      margin: 0 auto;
+    }
+    &__item {
+      margin-top: 30px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .advantages {
+    &__info {
+      width: 350px;
+      font-size: 18px;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+@media (max-width: 1200px) {
+  .promo {
+    &__header {
+      font-size: 38px;
+    }
+    &__subheader {
+      font-size: 20px;
+    }
+    &__icons {
+      width: 360px;
+    }
+  }
+}
+@media (max-width: 992px) {
+  .promo {
+    &__header {
+      font-size: 35px;
+    }
+    &__subheader {
+      font-size: 18px;
+    }
+    &__icons {
+      width: 325px;
+    }
+    &__icon {
+      font-size: 13px;
+      width: 100px;
+    }
+    &__link {
+      a {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .promo {
+    &__wrapper {
+      align-items: center;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.feed {
+  padding-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  &__item {
+    margin-top: 60px;
+    display: flex;
+    align-items: flex-start;
+  }
+  &__name {
+    font-size: 18px;
+    font-family: Museo700, sans-serif;
+    color: #0D0D0D;
+  }
+  &__subtitle {
+    font-family: Museo500, sans-serif;
+    font-size: 14px;
+    color: #646464;
+  }
+  &__text {
+    font-family: Museo300, sans-serif;
+    font-size: 16px;
+    color: #0D0D0D;
+    max-width: 630px;
+    margin-top: 10px;
+  }
+  &__image {
+    margin-right: 60px;
+  }
+}
